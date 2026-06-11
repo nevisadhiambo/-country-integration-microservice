@@ -124,6 +124,12 @@
                         </wsdlUrl>
                     </wsdlUrls>
                     <packageName>com.example.soap</packageName>
+                    <keep>true</keep>
+
+                    <!-- Location where generated sources are saved -->
+                    <sourceDestDir>
+                        ${project.basedir}/src/main/resources/wsdl
+                    </sourceDestDir>
                 </configuration>
             </plugin>
         </plugins>
